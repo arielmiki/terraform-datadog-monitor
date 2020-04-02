@@ -108,6 +108,6 @@ variable "include_tags" {
 
 variable "require_full_window" {
   type        = "string"
-  default     = false
+  default     = true
   description = "Whether require full window of data for evaluation"
 }
